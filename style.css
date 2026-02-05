@@ -1,0 +1,52 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsla(355, 75%, 56%, 1);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+/* Hamburger Menu */
+.McButton {
+  position: relative;
+  width: 44px;
+  height: 33px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.McButton b {
+  position: absolute;
+  left: 0;
+  width: 44px;
+  height: 3px;
+  background-color: white;
+  display: block;
+}
+
+.McButton b:nth-child(1) {
+  top: 0;
+}
+
+.McButton b:nth-child(2) {
+  top: 50%;
+}
+
+.McButton b:nth-child(3) {
+  top: 100%;
+}
+
